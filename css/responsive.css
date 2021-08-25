@@ -1,0 +1,101 @@
+
+
+@media(max-width: 991px){
+    #services .services-item {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+}
+
+@media(max-width: 767px){
+    #contact .contact-item,
+    #contact .w-50,
+    #services .services-item,
+    #skills .skills-item,
+    #about .about-img,
+    #about .about-info,
+    #home .home-text,
+    #home .home-img {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #home .home-text {
+        order: 2;
+    }
+    #home .home-text,
+    #contact .submit-btn {
+        text-align: center;
+    }
+    #home .full-screen {
+        padding: 100px 0;
+    }
+    #home .home-img .img-box {
+       margin-bottom: 40px;
+       max-width: 350px; 
+    }
+    .effect-3 {
+        margin-left: -60px;
+    }
+    .effect-4 {
+        left: 15%;
+    }
+    .effect-5 {
+        right: 4%;
+    }
+    #about .about-img {
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width: 574px){
+    #home .home-img .img-box {
+        max-width: 260px; 
+     }
+     #home .home-text h2 {
+         font-size: 35px;
+     }
+}
+
+@media (min-width: 250px) and (max-width: 362px){
+	#about .my-skills {
+		margin-top: 3rem;
+	}
+	#about .about-info .btn-1 {
+    margin: 20px 6px 0 0;
+	}
+	#about .about-info a:last-child {
+		display: none;
+	}
+	#about .my-skills .skills-item {
+    max-width: 100%;
+    flex: 0 0 100%;
+	}
+    #about .about-info h2 {
+	text-align: center;
+	padding-right: 10px;
+    }
+	#about .my-skills .description::before {
+		display: none;
+	}
+	#about .my-skills .description .description-item {
+		padding: 10px;
+	}
+	#about .my-skills .description .description-item:nth-child(odd) {
+    padding-right: 15px;
+    text-align: right;
+	}
+	#about .my-skills .description .description-item:nth-child(even) {
+    padding-left: 15px;
+	}
+	#about .my-skills .description .description-item-inner::before {
+		display: none;
+	}
+	#about .my-skills .description .description-item-inner .icon {
+		display: none;
+	}
+	#portfolio .portfolio-item {
+    flex: 0 0 100%;
+    min-width: 100%;
+	}
+	
+}
